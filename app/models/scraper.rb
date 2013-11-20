@@ -1,6 +1,5 @@
 class Scraper
-  require 'HTTParty'
-  require 'Nokogiri'
+
   attr_accessor :url
 
   def initialize(url)
